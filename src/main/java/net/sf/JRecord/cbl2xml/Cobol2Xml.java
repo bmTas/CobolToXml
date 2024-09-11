@@ -49,7 +49,7 @@ import net.sf.cb2xml.def.Cb2xmlConstants;
  *
  */
 public class Cobol2Xml  {
-	public static final JRecordConstantVars JR_CONSTANTS = JRecordConstantVars.INSTANCE;
+	public static final JRecordConstantVars JR_CONSTANTS = new JRecordConstantVars();
 	public static final ArrayElementChecks  ARRAY_CHECK_BUILDER = ArrayElementChecks.INSTANCE;
 	
 
